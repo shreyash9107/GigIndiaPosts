@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.mainview-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.mainview {
+  display: flex;
+  flex-direction: column;
+}
+
+.Sidebar {
+}
+.createNew {
+  padding-top: 10px;
+}
+.createNew a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.post {
+  margin: 10px 0;
+  width: 500px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
